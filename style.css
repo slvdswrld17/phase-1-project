@@ -1,39 +1,44 @@
 body {
    font-family: Arial, sans-serif;
+   font-style: italic;
    max-width: 1200px;
    margin: 0 auto;
    padding: 20px;
    text-align: center;
    background-color: #f4f4f4;
    background-image: url(images/creamback.jpg);
-   font-size: 50px;
-   color: white;
+   font-size: 60px;
+   color: rgb(0, 0, 0);
 }
 
 #header {
    color: #ffffff;
    background-image: url(images/all.b.jpg);
-   margin-bottom: 30px;
+   margin-bottom: 0px;
+   
 }
 
 #gallery {
    display: flex;
+   font-style: inherit;
    justify-content: center;
    gap: 20px;
    flex-wrap: wrap;
-   
+   font-size: 50px;
 }
 
 .player-container {
-   background-color: white;
+   background-color: rgb(240, 240, 240);
    border-radius: 10px;
-   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+   box-shadow: 1px 10px 10px rgba(67, 255, 10, 0.945);
    padding: 15px;
    transition: transform 0.3s ease;
+   
 }
 
 .player-container:hover {
    transform: scale(1.05);
+   
 }
 
 .player-container img {
@@ -41,6 +46,8 @@ body {
    height: 300px;
    object-fit: cover;
    border-radius: 10px;
+   size: 100px;
+   font-size: 100px;
 }
 
 .vote-section {
@@ -48,6 +55,7 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
+   
 }
 
 .vote-section button {
@@ -68,4 +76,8 @@ body {
 .vote-section span {
    font-weight: bold;
    color: #333;
+}
+
+.ardie-votes{
+   font-size: 100px;
 }
