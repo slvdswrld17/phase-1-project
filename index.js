@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const characterBar = document.getElementById("character-bar");
     const detailedInfo = document.getElementById("detailed-info");
 
-fetch("https://flatacuties-olive.vercel.app/charactersgit ")
+fetch()
     .then(response => response.json())
     .then(characters => {
         characters.forEach(character => {
