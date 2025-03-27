@@ -1,0 +1,54 @@
+#header{
+    padding: 10px;
+    margin: 10px;
+    font-size: large;
+    font-size: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: inherit;
+    text-align: center;
+    color: black;
+    
+}
+
+#body{
+
+    background-position: center;
+    background-repeat: no-repeat;
+background-size: 3000px;
+font-size: 50px;
+}
+
+#connect{
+    font-size: 100px;
+    font-style: italic;
+    text-align: center;
+color: snow
+
+}
+ #rb{
+    text-align: left;
+    background-size: 100PX;
+
+    font-size: 50px;
+    color: black;
+ }
+ #name{
+    font-size: 50px;
+    color: rgb(255, 6, 6);
+ }
+ #bar{
+    font-size: 100px;
+ }
+ #votes-form{
+    font-size: 50px;
+ }
+ 
+ #votes{
+    font-size: 100px;
+    background-color: black;
+    color: antiquewhite;
+ }
+
+ #reset{
+    font-size: 50px;
+ }
