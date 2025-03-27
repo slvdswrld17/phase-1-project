@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head id="two">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
@@ -10,26 +10,43 @@
 <body id="body"> 
     <section class="contact">
         <div class="logo">
-            <h1>Vote your player</h1>
-          </div>
+            <h1>Vote Your Player</h1>
+        </div>
       
-          <div id="bar">
+        <div id="bar">
             <div id="gallery">
-                <img src="images/arron.jpg" id="photo1">
-                <img src="images/ardie.jpg" id="photo2">
-                <img src="images/siya.jpg" id="photo3">
-                <img src="images/etzabeth.jpg" id="photo4">
-                
-          </div>
-          <img>
-
-
+                <div class="player-container">
+                    <img src="images/arron.jpg" id="photo1" alt="Arron">
+                    <div class="vote-section">
+                        <button onclick="voteForPlayer('arron')">Vote Arron</button>
+                        <span id="arron-votes">0 Votes</span>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <img src="images/ardie.jpg" id="photo2" alt="Ardie">
+                    <div class="vote-section">
+                        <button onclick="voteForPlayer('ardie')">Vote Ardie</button>
+                        <span id="ardie-votes">0 Votes</span>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <img src="images/siya.jpg" id="photo3" alt="Siya">
+                    <div class="vote-section">
+                        <button onclick="voteForPlayer('siya')">Vote Siya</button>
+                        <span id="siya-votes">0 Votes</span>
+                    </div>
+                </div>
+                <div class="player-container">
+                    <img src="images/etzabeth.jpg" id="photo4" alt="Etzabeth">
+                    <div class="vote-section">
+                        <button onclick="voteForPlayer('etzabeth')">Vote Etzabeth</button>
+                        <span id="etzabeth-votes">0 Votes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-</div>
-
-        <div id="connect"> 
-    </div>
     
+    <script src="js/index.js"></script>
 </body>
-<script src="js/index.js"></script>
 </html>
