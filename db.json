@@ -1,0 +1,35 @@
+{
+    "characters": [
+      {
+        "id": 1,
+        "name": "player 1",
+        "image": "",
+        "votes": 0
+      },
+      {
+        "id": 2,
+        "name": "Player 2",
+        "image": "",
+        "votes": 0
+      },
+      {
+        "id": 3,
+        "name": "player 3",
+        "image": "",
+        "votes": 0
+      },
+      {
+        "id": 4,
+        "name": "player 4",
+        "image": "",
+        "votes": 0
+      },
+      {
+        "id": 5,
+        "name": "player 5",
+        "image": "",
+        "votes": 0
+      }
+    ]
+  }
+  
