@@ -2,53 +2,64 @@
     padding: 10px;
     margin: 10px;
     font-size: large;
-    font-size: 100px;
+    font-size: 50px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: inherit;
     text-align: center;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-color: bisque;
+    background-image: url(all.b.jpg);
     
 }
 
 #body{
-
+background-image:url(creamback.jpg) ;
     background-position: center;
-    background-repeat: no-repeat;
-background-size: 3000px;
+background-size: 1000px;
+text-align: center;
 font-size: 50px;
-}
-
-#connect{
-    font-size: 100px;
-    font-style: italic;
-    text-align: center;
-color: snow
 
 }
+
  #rb{
     text-align: left;
-    background-size: 100PX;
+    background-size: 50PX;
 
     font-size: 50px;
-    color: black;
+    color: rgb(248, 243, 243);
  }
- #name{
-    font-size: 50px;
-    color: rgb(255, 6, 6);
- }
+ 
  #bar{
     font-size: 100px;
- }
- #votes-form{
-    font-size: 50px;
+    flex-wrap: wrap;
+
  }
  
  #votes{
-    font-size: 100px;
-    background-color: black;
+    font-size: 50px;
     color: antiquewhite;
+    align-content: end;
  }
 
  #reset{
     font-size: 50px;
+ }
+
+ 
+
+ #photo1{
+   border-radius: 30px;
+   animation-duration: 3ms;
+ }
+ 
+ #photo2{
+   border-radius: 30px;
+ }
+
+ #photo3{
+   border-radius: 30px;
+ }
+
+ #photo4{
+   border-radius: 30px;
  }

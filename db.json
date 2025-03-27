@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
     "characters": [
+=======
+    "players": [
+>>>>>>> 045ea92 (phase-1-project)
       {
         "id": 1,
         "name": "player 1",
@@ -32,4 +36,8 @@
       }
     ]
   }
+<<<<<<< HEAD
   
+=======
+  
+>>>>>>> 045ea92 (phase-1-project)

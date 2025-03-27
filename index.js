@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let base_url = "http://localhost:3000/products"
 document.addEventListener("DOMContentLoaded", () => {
     const characterBar = document.getElementById("character-bar");
@@ -33,3 +34,13 @@ function displayCharacterDetails(character) {
 }
 });
 
+=======
+// Select all images inside the gallery
+document.querySelectorAll("#gallery img").forEach(img => {
+    img.addEventListener("click", function() {
+        alert(`You clicked on ${this.alt || "arron.jpg"}`);
+        // Optionally, redirect to a related page
+        // window.location.href = "https://example.com/player-profile";
+    });
+});
+>>>>>>> 045ea92 (phase-1-project)
